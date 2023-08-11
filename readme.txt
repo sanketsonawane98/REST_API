@@ -46,7 +46,7 @@ in our database
 
 4-> when we make a POST request through post man to https://restapi-7gw2.onrender.com/blogs and add our jwt token 
 in headers in Authorization field ex.(Authorization:Bearer  token) [NOTE bearer should be there in front of token]
-and providing data in json ex({"title":"My College","content": "IIITDM"}) this will add new blog to our database
+and providing data in json ex({"title":"My College","content": "VIIT"}) this will add new blog to our database
 [NOTE :only authorized users with jwt token can do this operation]
 
 
@@ -57,7 +57,7 @@ this will delete   a blog int  our database corresponding to the given id
 
 6-> when we make a PATCH request through post man to https://restapi-7gw2.onrender.com/blogs/:id and add our jwt token 
 in headers in Authorization field ex.(Authorization:Bearer  token) [NOTE bearer should be there in front of token]
-and providing data in json ex({"title":"My College","content": "IIITDM"}) this will update    a blog int  our database
+and providing data in json ex({"title":"My College","content": "VIIT"}) this will update    a blog int  our database
 corresponding to the given id
 [NOTE :only authorized users with jwt token can do this operation]
 
